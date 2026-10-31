@@ -1,0 +1,150 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+*.egg
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================
+# Virtual Environments
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+*.env
+secrets.py
+config.local.py
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# ==========================
+# Type Checkers & Linters
+# ==========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# ==========================
+# IDEs & Editors
+# ==========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# Rope
+.ropeproject/
+
+# ==========================
+# OS Generated Files
+# ==========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+# ==========================
+# Logs & Databases
+# ==========================
+*.log
+*.sqlite3
+*.db
+
+# ==========================
+# API Keys & Credentials
+# ==========================
+credentials.json
+token.json
+service_account.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================
+# Model / AI Artifacts
+# ==========================
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.onnx
+*.bin
+models/
+checkpoints/
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.bak
+*.swp
+*.tmp
+*.temp
+.cache/
+tmp/
